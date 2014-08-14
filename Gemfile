@@ -28,6 +28,10 @@ gem 'spring',        group: :development
 
 gem 'rspec-rails', '~> 2.14.0'
 
+group :development do
+  gem 'foreman'
+  gem 'thin'
+end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
